@@ -1,0 +1,414 @@
+html 
+{
+    scroll-behavior: smooth ;
+}
+.coloring-headers 
+{
+    font-weight : 900 ;
+    font-size : 30px ;
+    margin : 10px 0px ;
+    color : #333 ;
+}
+
+.coloring 
+{
+    font-size : 18px ;
+    width : 90% ;
+}
+.icon 
+{
+    padding : 10px  15px ;
+    margin : 10px 5px ;
+    transition : all .3s ;
+    text-align : center ;
+    font-size : 40px ;
+    background-color : #f1f1f1 ;      
+}
+.icon-text 
+{
+    color : #333 ;
+    font-size : 15px ;
+    font-weight : 700 ; 
+    margin-bottom : 15px ;
+    text-transform: uppercase
+}
+
+.navbar .nav-item
+{
+    font-size : 16px ;
+    font-weight : 600 ; 
+    padding : 0px 10px !important ;
+}
+.navbar .navbar-brand 
+{
+    width : 5% !important ;
+}
+.bg-mine 
+{
+    background-color : #1A1A1A !important  ;
+}
+.navbar .fonting 
+{
+    font-weight : 700 ;
+}
+.navbar .nav-item a 
+{
+    transition : all .3s ;
+}
+.navbar .nav-item:hover a
+{
+    color : #ec3237 !important ;
+}
+.navbar .nav-item .special
+{
+    color : #ec3237 !important ; 
+}
+.navbar .navbar-nav .nav-item .special:after
+{
+    background-color : #ec3237 !important ;
+    position : absolute ;
+    top : 150% ;
+    left : 0% ;
+    height : 2px ;
+    width : 100% ;
+    content : "" ;
+}
+
+
+.section1 
+{
+    background-image :url(../img/cover.jpg) ;
+    background-attachment :fixed ;
+    background-size : 100% 100% ;
+    height : 550px ;
+}
+.section1 .layer 
+{
+    background-color :rgba(236, 51, 55, 0.7) ;
+    height : 100% ;
+}
+.section1 .layer h1 
+{
+    font-size : 40px ;
+    width : 80% ;
+    margin  : auto ;
+    font-weight : 900 ;
+    text-shadow: 0px 5px 10px #af2424 ;
+    
+}
+.section1 .layer p 
+{
+    width : 80% ;
+    margin : auto ;
+    font-size : 30px ;
+    margin-top : 10px ;
+}
+.section1 .layer button 
+{
+    padding : 10px 30px ;
+    margin : 5% 10% ;
+    color : #fff !important ;
+    font-size : 20px ;
+    border : solid 2px #fff ;
+    transition : all .5s ;
+}
+.section1 .layer button:hover 
+{
+    background-color : #fff ;
+    color:rgba(227,103,115) !important;
+}
+.section1 .layer button:hover a 
+{
+    color:rgba(227,103,115) !important;
+}
+
+
+.section1 span i 
+{
+    animation: moving 3s infinite linear ;
+    position : absolute ;
+    font-size: 50px ;
+    bottom : 150px ;
+    left : 50% ;
+}
+
+@keyframes moving{
+    0% 
+    {
+        bottom : 30% ;
+    }
+    50% 
+    {
+        bottom :20% ;
+    }
+    100% 
+    {
+        bottom : 30% ;
+    }
+}
+
+
+
+
+.section2 .icons i 
+{
+    font-size : 20px ;
+    color : #777777 ;
+    width : 80% ;
+    margin : auto ;
+}
+.section2 p 
+{
+    color : #777 ;
+    margin : 20px 0px ;
+    font-size : 17px ;
+}
+.section2 .icons li 
+{
+    padding : 10px  15px ;
+    margin : 0px 5px ;
+    border : solid 1px #777 ;
+    transition : all .3s ;
+    text-align : center ;
+}
+.section2 .icons li:hover 
+{
+    background-color : #ec3237 !important ;
+    border-color : #ec3237 ;
+}
+.section2 .icons li:hover a i
+{
+    color : #fff ;
+}
+.section2 .precentage 
+{
+    background-color : #f1f1f1 ;
+    border-radius : 5px ;
+    width : 90% ;
+    height : 10px ;
+}
+.section2 .precentage  .layer 
+{
+    background-color : #ec3237 ;
+    width : 79% ;
+    height : 100% ;
+}
+.section2 .precentage  .layer1
+{
+    width : 79% ;
+}
+.section2 .precentage  .layer2
+{
+    width :90% ;
+}
+.section2 .precentage  .layer3
+{
+    width :96% ;
+}
+.section2 .precentage  .layer4
+{
+    width :70% ;
+}
+
+
+
+
+
+.section3 
+{
+    background-color : #f1f1f1 ;
+}
+
+.For-Hover:hover h4 , .For-Hover:hover i
+{
+    color : #ec3237 !important  ;
+}
+.section3 .btn-mine 
+{
+    padding : 10px 20px !important ;
+    border : none ;
+    border-radius : 0px ;
+    text-transform: uppercase ;
+    color : #fff ;
+}
+
+
+
+
+.section4  
+{
+    background-image : url(../img/project-counter.jpg) ;
+    background-attachment : fixed ;
+    background-size : 100% 100% ;
+    color : #ec3237 ;
+}
+.section4 .bimg p 
+{
+    color : #fff !important  ;
+    font-size : 20px ;
+}
+.section4 .bimg i 
+{
+    background-color : transparent ;
+}
+.section4 .bimg .bordered 
+{
+    border : solid 1px rgba(255,255,255,.2) ;
+}
+
+
+.protfolio 
+{
+    background-color : #f1f1f1 ;
+}
+
+.protfolio .all
+{
+    background-color :#ec3237 ;
+    color : #fff ;
+}
+.item .caption 
+{
+    font-weight : 100 ;
+   
+}
+
+.item .caption h2 
+{
+    font-size : 1.5rem ;
+}
+.item .caption p 
+{
+    font-style: italic  ;
+}
+.lightboxContainer 
+{
+    top : 0 ;
+    bottom: 0px ;
+    left : 0 ;
+    right : 0 ;
+    background-color : rgba(0,0,0,.7) ;
+    display : none !important ;
+}
+.lightboxContainer .lightboxItem 
+{
+    background-size : 100% 100% ;
+}
+#wClose 
+{
+    position : absolute ;
+    top : 20px ;
+    right : 20px ;
+}
+.show 
+{
+    display : flex !important ;
+}
+
+.protfolio p  
+{
+    font-size : 20px ;
+    color : #333 ;
+    margin : 5px 0px ;
+}
+.protfolio h4 
+{
+    font-size : 16px ;
+}
+
+.protfolio .content:hover .modal-icon
+{
+    background-color : #ec3237 ;
+}
+
+
+
+
+
+
+
+.section6 
+{
+    background-image : url(../img/bg-section6.jpg) ;
+    background-attachment : fixed ;
+    background-size: 100% 100% ;
+}
+.section6 img 
+{
+    border : solid 7px #ec3237 ;
+}
+
+.section6 h3 
+{
+    color : #ec3237 ;
+}
+.section7 .contact 
+{
+    color : #333 ;
+    font-size : 15px ;
+    font-weight : 900 ;
+    padding : 10px 0px ;
+}
+.section7 i 
+{
+    font-size : 20px ;
+    padding : 10px ;
+}
+.email 
+{
+    color : #ec3237 !important ;
+    text-decoration : none ;
+}
+.section7  .icon-container 
+{
+    color : #777 ;
+    padding : 5px ;
+    overflow : auto ;
+}
+.section7  .icon-container ul li 
+{
+    border : solid 1px #777 ;
+    padding : 5px ;
+    margin : 0px 5px ;
+    color : #777 ;
+    font-size : 15px ;
+}
+.section7 .icon-container ul li:hover 
+{
+    color : #fff ;
+    background-color : #ec3237 ;
+    border-color : #ec3237 ;
+}
+.section7 input 
+{
+    border : none ;
+    color : #777 ;
+    border-radius : 5px ;
+    border : solid 1px #ddd ;
+    color : #888 ;
+}
+.section7 textarea 
+{
+    height : 150px ;
+    border : none ;
+    border : solid 1px #ddd ;
+    border-radius : 5px ;
+}
+
+@media (max-width : 786px ) 
+{
+    .lightboxItem 
+    {
+        width : 100% !important ;
+    }
+    .section1 span i 
+    {
+        left : 80% !important;
+    }
+    
+    .navbar .navbar-nav .nav-item .special:after
+    {
+        top : 100% !important ;
+    }
+
+}
